@@ -7,9 +7,11 @@ nav:
   - 索引: index.md
   - Clases:
     - 1: clases/1.md
+    - 2: clases/2.md
   - Recursos:
     - Fonética:
       - Sonidos: recursos/sonidos.md
+      - Tips: recursos/fonetica.md
 
 theme:
   name: material
