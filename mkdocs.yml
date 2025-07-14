@@ -1,0 +1,46 @@
+site_name: ""
+
+docs_dir: pages
+
+nav:
+  - 主页: https://robin.ar
+  - 索引: index.md
+  - Clases:
+    - 1: clases/1.md
+  - Recursos:
+    - Fonética:
+      - Sonidos: recursos/sonidos.md
+
+theme:
+  name: material
+  font:
+    text: "Merriweather"
+    code: "Noto Sans Traditional Chinese"
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.top
+    - navigation.autohide
+    - content.code.annotate
+    - content.tooltips
+    - header.autohide
+
+extra_css:
+  - styles/clase.css
+
+extra:
+  generator: false
+  images_dir: assets/imgs
+  base_url: /chino
+
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - footnotes
+
+plugins:
+  - path_rewriter
